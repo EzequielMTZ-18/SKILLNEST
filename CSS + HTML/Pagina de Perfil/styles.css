@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(8, 5, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.header h3 {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar li {
+    margin: 0px 30px 0px;
+    font-size: 20px;
+}
+
+.logout {
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(170, 38, 29);
+    color: aliceblue;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: green;
+}
+
+.main-container {
+    display: flex;
+    background-color: rgb(44, 49, 49);
+}
+
+.left-container {
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    /*height: 100vh;*/
+
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-right: 70px;
+
+}
+
+.card {
+    background-color: rgb(245, 243, 243);
+    width: 70%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0px 5px 8px 0px rgb(148, 147, 147), 0px 5px 8px 0px rgb(2, 2, 2);
+    display: flex;
+    /*hijos se apilen en columna*/
+    flex-direction: column;
+    /*para posicionar mejor la foto */
+    position: relative;
+    margin: 20px 0px;
+}
+
+
+
+
+.card-header {
+    background-color: rgb(8, 5, 58);
+    height: 120px;
+}
+
+.profile {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(245, 243, 243);
+    position: absolute;
+    left: 6%;
+    top: 8%
+}
+
+.card-body {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
+}
+
+.info {
+    display: flex;
+    /*apilamos elementos*/
+    flex-direction: column;
+    /*damos espacio entre los elementos*/
+    gap: 10px;
+    font-size: 17px;
+    color: rgb(87, 83, 83);
+}
+
+.info h1 {
+    color: black
+}
+
+.myinfo {
+    text-align: justify;
+}
+
+.editbutton {
+    width: 140px;
+    height: 30px;
+    font-size: 17px;
+    /*separamos el boton de la info asi queda bien visualmente*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    color: rgb(9, 123, 131);
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.editbutton img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.base {
+    margin: 20px 40px;
+    gap: 20px;
+}
+
+
+.base li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.base li h4 {
+    width: 170px;
+    text-align: left;
+}
+
+
+.base img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgb(166, 216, 146);
+    margin-right: 20px;
+}
+
+.btn {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+
+
+.accept {
+    background-color: transparent;
+    margin: 0px 20px;
+    border: 3px solid green;
+}
+
+.accept:hover {
+    background-color: green;
+    color: white
+}
+
+.deny {
+    border: 3px solid red;
+}
+
+.deny:hover {
+    background-color: red;
+    color: white
+}
+
+.conex li {
+    margin: 10px 0px;
+}
+
+
+/*para los contenedores de la derecha*/
+.right {
+    width: 90%;
+
+}
