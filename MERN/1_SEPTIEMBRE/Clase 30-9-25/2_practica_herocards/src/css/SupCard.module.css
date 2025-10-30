@@ -1,0 +1,9 @@
+.superCard {
+    margin: 1rem !important;
+    flex: 1;
+}
+
+.img {
+    width: 2rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+cliente:
+npm install axios
+(faltan)
+
+
+server:
+
+npm init -y
+npm install express
+npm install --save-dev nodemon
+
+npm install cors
+
+npm install norecuerdo cual

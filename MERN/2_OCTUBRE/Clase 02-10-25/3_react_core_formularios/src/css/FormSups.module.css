@@ -1,0 +1,48 @@
+.formulario {
+    min-height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(226, 214, 214);
+    overflow: auto;
+}
+
+.formulario>div>input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.formulario>div>label {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.formulario>button {
+    width: 35%;
+    margin-bottom: 40px;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: rgb(15, 126, 190);
+    font-size: 1.2rem;
+}
+
+.formulario>img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.error {
+    background-color: rgb(107, 1, 1);
+    border: 2px solid rgb(253, 237, 8);
+    color: red;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}

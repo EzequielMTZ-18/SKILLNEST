@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Petlopedia</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="headercontainer">
+            <h5>Petlopedia</h5>
+            <input type="text" placeholder="Buscar Mascotas">
+            <button id="logoutBtn">Iniciar Sesión</button>
+        </div>
+    </section>
+    <section class="main-section">
+        <div class="left-section">
+            <div class="default-container">
+                <h4>Gato Atigrado</h4>
+                <em>sustantivo</em>
+                <p>Plural: Gatos Atigrados</p>
+                <p>
+                    Un gato con un pelaje distintivo que presenta rayas o patrones en remolino.
+                    Usualmente con una marca en forma de "M" en su frente"
+                </p>
+                <button id="likeGato" class="like">22 Me gusta</button>
+            </div>
+            <div class="default-container">
+                <h4>Golden Retriever</h4>
+                <em>sustantivo</em>
+                <p>Plural: Golden Retrievers</p>
+                <p>
+                    Una raza de perro amistosa, inteligente y devota, conocida por su pelaje
+                    y su habilidad para recuperar objetos sin dañarlos
+                </p>
+                <button id="likePerro" class="like">45 Me gusta</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="default-container">
+                <h3>Petlopedia esta definida por tí</h3>
+                <button id="addBtn" class="addBtn">Agregar Definición</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.high {
+    color: red;
+}
+
+.medium {
+    color: orange;
+}
+
+.low {
+    color: green;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+
+
+}
+
+.note>p {
+    width: 70%;
+}
+
+.boton {
+    margin-left: 30px;
+
+}

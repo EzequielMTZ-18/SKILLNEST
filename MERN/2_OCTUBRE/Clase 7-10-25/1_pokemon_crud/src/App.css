@@ -1,0 +1,24 @@
+#root {
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(41, 40, 39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+.pokemones {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  margin: 1rem;
+}

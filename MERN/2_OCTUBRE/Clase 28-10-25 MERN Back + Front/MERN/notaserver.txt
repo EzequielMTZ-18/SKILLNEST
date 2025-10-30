@@ -1,0 +1,88 @@
+Iniciar configuracion del server
+npm init -y
+
+
+Instalar express
+npm install express
+
+Instalar nodemon para ver cambios reflejados del server
+npm install --save-dev nodemon
+
+Instalar dotenv para manejo de variables de entorno
+npm install dotenv
+
+
+Instalar mongoose
+npm install mongoose
+
+
+Modificar package.json = 
+type: "module"
+agregar script "dev": "nodemon server.js"
+
+
+
+Importamos express en el server.js
+creamos const app = express()
+creamos el archivo .env
+creamos variable PORT en el .env
+importamos dotenv en server.js
+agregamos dotenv.config()
+creamos const PORT = process.env.PORT
+creamos el app.listen
+
+creamos carpeta config y database.js
+importamos connect de mongoose y dotenv
+agregamos la variable con la URL de la base de datos al .env
+creamos una variable en database.js que obtenga la variable que viene del .env
+creamos la funcion para conectar a la database de atlas.
+exportamos la funcion
+
+importamos en server.js la funcion que conecta a la database
+llamamos a la funcion que conecta a la database (si todo esta bien aparece en la consola que esta conectado).
+
+comezamos a construir esquemas
+creamos carpeta models
+creamos archivo model, importamos moongose y comezamos a modelar
+
+Una vez terminamos
+Generamos la carpeta controllers
+Creamos archivo controller para "Songs"
+importamos el modelo recien creado
+
+creamos los metodos.
+
+creamos la carpeta Routes
+creamos archivo songs.route.js
+importamos Router from express
+importamos el controlador recien creado
+creamos controladores
+
+
+luego en el server montamos el middleware (ejecuta primero lo del middleware antes que lo que viene del servidor )
+debajo de donde conectamos a la base de datos en el server.js comezamos a 
+definimos las rutas para canciones
+
+repetir, ya apartir de aca agregamos los metodos que queramos y luego la ruta y testeamos en postman.
+
+
+CLIENTE==============
+
+Creamos el primer componente para conectar con el server 
+SongsApi.jsx
+
+importamos axios
+importamos useEffect
+
+creamos la funcion que trae la data (la cual va a tirar error hasta que metamos CORS)
+
+
+BAJAMOS EL server
+INSTALAMOS CORS
+
+importemos cors al server.js
+agregamos el middleware de CORS al server.js
+
+clase 28/10/25======
+importamos BrowserRouter en el main.jsx
+Cambiamos el StrictMode por un BrowserRouter

@@ -1,0 +1,27 @@
+.cardNotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardNotes>div {
+    margin: 1rem;
+}
+
+
+
+.noteInput {
+    width: 100%;
+}
+
+.notePriority {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.addBtn {
+    width: 50%;
+    margin: 0 auto;
+}

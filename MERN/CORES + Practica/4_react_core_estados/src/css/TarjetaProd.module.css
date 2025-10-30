@@ -1,0 +1,25 @@
+.tarjetaProducto {
+    width: 350px;
+    min-height: 260px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+
+}
+
+
+.precio {
+    color: gray;
+    font-weight: bold;
+}
+
+.desc {
+    min-height: 50px;
+}
+
+.tarjetaProducto>button {
+    align-content: end;
+    justify-content: flex-end;
+}

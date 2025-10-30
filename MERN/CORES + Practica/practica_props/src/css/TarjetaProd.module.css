@@ -1,0 +1,13 @@
+.tarjetaProducto {
+    width: 350px;
+    height: 230px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 1rem
+}
+
+
+.precio {
+    color: gray;
+    font-weight: bold;
+}

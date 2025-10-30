@@ -1,0 +1,28 @@
+CLIENTE=======
+npm install axios
+npm install react-router-dom
+
+
+SERVER=======
+
+Iniciar configuracion del server
+npm init -y
+
+
+Instalar express
+npm install express
+
+Instalar nodemon para ver cambios reflejados del server
+npm install --save-dev nodemon
+
+Instalar dotenv para manejo de variables de entorno
+npm install dotenv
+
+
+Instalar mongoose
+npm install mongoose
+
+
+Modificar package.json = 
+type: "module"
+agregar script "dev": "nodemon server.js"
