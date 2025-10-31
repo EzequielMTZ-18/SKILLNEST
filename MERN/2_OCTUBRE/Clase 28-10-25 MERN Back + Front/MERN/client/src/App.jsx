@@ -3,7 +3,7 @@ import './App.css'
 import SongsApi from './components/SongsApi'
 
 function App() {
-  const [listaSongs, setlistaSongs] = useState({})
+  const [listaSongs, setlistaSongs] = useState([])
 
   return (
     <>
@@ -11,7 +11,7 @@ function App() {
       <SongsApi setlistaSongs={setlistaSongs} />
 
       <ol>
-        {listaSongs.map(song => <li>{song.title}</li>)}
+        {listaSongs.map(song => <li key={song.title}>{song.title}</li>)}
 
       </ol>
     </>
